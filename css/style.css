@@ -1053,3 +1053,23 @@ footer span {
     width: fit-content;
   }
 }
+
+.scroll-top a {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #222831;
+  border: 1px solid #fff;
+  padding: 0.4rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.none {
+  opacity: 0;
+  visibility: hidden;
+}
