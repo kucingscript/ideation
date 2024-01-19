@@ -318,7 +318,7 @@ main {
 }
 
 .cta1 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 500;
 }
 
